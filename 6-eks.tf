@@ -1,4 +1,4 @@
-resource "aws_iam_role" "demo" {
+resource "aws_iam_role" "demo-march" {
   name = "class21-dev"
 
   assume_role_policy = <<POLICY
